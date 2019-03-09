@@ -11,6 +11,7 @@ def reformat_languages(languages)
         hash[language][:style] ||= []
         hash[language][:style] << oo_functional
         if hash[language][attribute].nil?
+          binding.pry
           hash[language][attribute] = string
       end 
     end 
