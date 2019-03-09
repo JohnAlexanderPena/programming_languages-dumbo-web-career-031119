@@ -13,7 +13,6 @@ def reformat_languages(languages)
           hash[language][attribute] = string
       end 
     end 
-end
 end 
 hash
 end 
