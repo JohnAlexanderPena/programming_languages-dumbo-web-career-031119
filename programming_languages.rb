@@ -7,9 +7,9 @@ def reformat_languages(languages)
       attribute_hash.each do |attribute, string|
         if hash[language].nil?
           hash[language] = {}
-        end 
-        hash[language][:style] ||= []
+        end
         binding.pry
+        hash[language][:style] ||= []
         hash[language][:style] << oo_functional
         if hash[language][attribute].nil?
           hash[language][attribute] = string
